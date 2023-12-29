@@ -1,0 +1,50 @@
+#root {
+  margin: 0 0;
+  text-align: center;
+}
+.App {
+  background-color: rgb(40, 103, 128);
+  padding: 10px;
+  width: 99vw;
+  min-height: 100vh;
+  overflow: hidden;
+}
+.home_back {
+  width: 100%;
+  overflow: hidden;
+}
+.new_year {
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-size: 20vw;
+  background-image: url(https://unsplash.it/800);
+  background-size: cover;
+  background-clip: text;
+  color: transparent;
+}
+.year {
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  background-image: url(https://unsplash.it/800);
+  background-size: cover;
+  background-clip: text;
+  color: transparent;
+  font-size: 20vw;
+}
+.message{
+  font-size: 18px;
+}
+p {
+  margin: auto;
+  width: 50%;
+  color: white;
+  margin-bottom: 10px;
+}
+button {
+  margin: auto;
+  background-color: aqua;
+  display: block;
+}
+input {
+  margin: auto;
+  margin-top: 10px;
+  padding: 10px 20px;
+}
