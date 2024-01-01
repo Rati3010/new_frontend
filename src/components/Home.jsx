@@ -39,7 +39,7 @@ const Home = () => {
     calculateLovePercentage(newName);
   };
   const calculateLovePercentage = newName => {
-    if (newName.toLowerCase() === 'archana') {
+    if (newName.trim().toLowerCase() === 'archana') {
       setLovePercentage('100%');
     } else {
       const randomPercentage = Math.floor(Math.random() * 100) + 0;
